@@ -10,11 +10,11 @@ sns.set(style='white', palette='muted')
 plt.style.use('ggplot')
 
 datetime_columns = ["order_approved_at", "order_delivered_carrier_date", "order_delivered_customer_date", "order_estimated_delivery_date", "order_purchase_timestamp", "shipping_limit_date"]
-ecommerce_df = pd.read_csv("C:/Users/ASUS/data_analyst_dicoding/dashboard/df.csv")
+ecommerce_df = pd.read_csv("https://raw.githubusercontent.com/fikrifaqih80/E-commerce_Dicoding/refs/heads/main/dashboard/df.csv")
 ecommerce_df.sort_values(by="order_approved_at", inplace=True)
 ecommerce_df.reset_index(inplace=True)
 
-geo_data = pd.read_csv("C:/Users/ASUS/data_analyst_dicoding/dashboard/geolocation.csv")
+geo_data = pd.read_csv("https://raw.githubusercontent.com/fikrifaqih80/E-commerce_Dicoding/refs/heads/main/dashboard/geolocation.csv")
 unique_customer_data = geo_data.drop_duplicates(subset='customer_unique_id')
 
 for column in datetime_columns:
@@ -76,7 +76,7 @@ with st.sidebar:
     st.write("Created by: **Fikri Faqih Al Fawwaz**")
 
     st.markdown('<div class="sidebar-image">', unsafe_allow_html=True)
-    st.image("C:/Users/ASUS/data_analyst_dicoding/dashboard/logo.png", width=120)
+    st.image("https://raw.githubusercontent.com/fikrifaqih80/E-commerce_Dicoding/refs/heads/main/dashboard/logo.png", width=120)
     st.markdown('</div>', unsafe_allow_html=True)
 
     st.markdown('<div class="sidebar-subheader">Filter by Date Range</div>', unsafe_allow_html=True)
