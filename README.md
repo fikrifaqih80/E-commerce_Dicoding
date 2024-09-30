@@ -1,6 +1,6 @@
 # E-Commerce Data Analysis and Visualization Project
 
-[Interactive E-Commerce Dashboard](https://e-commerce_data_analyst.streamlit.app/)
+[Interactive E-Commerce Dashboard]
 
 ## Table of Contents
 - [Introduction](#introduction)
