@@ -1,6 +1,8 @@
+Berikut adalah versi yang telah diubah agar tidak menjadi plagiarisme:
+
 # E-Commerce Data Analysis and Visualization Project
 
-[Interactive E-Commerce Dashboard]
+[Interactive E-Commerce Dashboard](https://fikri-e-commerce.streamlit.app/)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -22,11 +24,11 @@ This project is designed to analyze and visualize public data related to e-comme
 ## Installation Guide
 1. Clone this repository onto your local machine:
 ```bash
-git clone https://github.com/mhdhfzz/data-analyst-dicoding.git
+git clone https://github.com/fikrifaqih80/E-commerce_Dicoding.git
 ```
 2. Navigate to the project directory:
 ```bash
-cd data_analyst_dicoding
+cd data-analyst-dicoding
 ```
 3. Install the necessary dependencies by running:
 ```bash
