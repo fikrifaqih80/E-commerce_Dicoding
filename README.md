@@ -1,5 +1,3 @@
-Berikut adalah versi yang telah diubah agar tidak menjadi plagiarisme:
-
 # E-Commerce Data Analysis and Visualization Project
 
 [Interactive E-Commerce Dashboard](https://fikri-e-commerce.streamlit.app/)
