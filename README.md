@@ -28,7 +28,7 @@ git clone https://github.com/fikrifaqih80/E-commerce_Dicoding.git
 ```
 2. Navigate to the project directory:
 ```bash
-cd data-analyst-dicoding
+cd data_analyst_dicoding
 ```
 3. Install the necessary dependencies by running:
 ```bash
